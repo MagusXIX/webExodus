@@ -1,0 +1,2 @@
+[Sun, 15 Sep 2013 22:34:44 GMT] ERROR 127.0.0.1 - - [Sun Sep 15 2013 15:34:44 GMT-0700 (Pacific Daylight Time)] "GET /sector/generate 1.1" 500 1376 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.66 Safari/537.36"
+[Sun, 15 Sep 2013 22:34:44 GMT] ERROR 127.0.0.1 - - [Sun Sep 15 2013 15:34:44 GMT-0700 (Pacific Daylight Time)] "GET /sector/generate 1.1" 500 1376 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.66 Safari/537.36"

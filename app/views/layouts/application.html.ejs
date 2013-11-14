@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Exodus</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width" />
+
+    <!-- The HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <%- scriptLink('http://html5shim.googlecode.com/svn/trunk/html5.js', {type:'text/javascript'}) %>
+    <![endif]-->
+
+    <%- scriptLink('/js/jquery.min.js', {type:'text/javascript'}) %>
+    <%- scriptLink('/js/jquery.noisy.min.js', {type: 'text/javascript'}) %>
+    <%- scriptLink('/js/three/three.js', {type: 'text/javascript'}) %>
+    <%- scriptLink('/js/three/THREEx.js', {type: 'text/javascript'}) %>
+    <%- scriptLink('/js/three/detector.js', {type: 'text/javascript'}) %>
+    <%- scriptLink('/js/three/datgui.min.js', {type: 'text/javascript'}) %>
+
+    <%- styleLink('/css/style.css', {rel:'stylesheet'}) %>
+  </head>
+
+  <body oncontextmenu="return false;">
+    <div id="container">
+      <%- yield(); %>
+    </div>
+    <script>
+      $('body').noisy({
+        'intensity' : 0.004,
+        'size' : '1024',
+        'opacity' : 0.97,
+        'fallback' : '',
+        'monochrome' : false
+      }).css('background-color', '#000');
+    </script>
+  </body>
+
+</html>

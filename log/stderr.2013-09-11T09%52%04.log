@@ -1,0 +1,1 @@
+[Wed, 11 Sep 2013 16:34:56 GMT] ERROR 127.0.0.1 - - [Wed Sep 11 2013 09:34:56 GMT-0700 (Pacific Daylight Time)] "GET /bundle.js 1.1" 500 1151 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.66 Safari/537.36"

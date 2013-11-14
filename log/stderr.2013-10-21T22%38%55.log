@@ -1,0 +1,2 @@
+[Tue, 22 Oct 2013 05:38:16 GMT] ERROR function (systems) {        for (var i in systems) {          if (Math.abs(camera.position.x - systems[i].strategicPosition[0]) <= 0.5 
+[Tue, 22 Oct 2013 05:38:16 GMT] ERROR Worker 5844 died.
